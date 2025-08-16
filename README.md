@@ -28,6 +28,7 @@ Update the .env file:
 
 DB_CONNECTION=sqlite
 DB_DATABASE=/absolute/path/to/database/database.sqlite
+
 Replace /absolute/path/to/database/database.sqlite with the full path to the database.sqlite file on your machine.
 This ensures Laravel knows where to find the SQLite database.
 
