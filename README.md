@@ -47,7 +47,7 @@ php artisan key:generate
 Run migrations & seeder:
 
 php artisan migrate --seed
-php artisan migrate --seed
+
 
 
 php artisan serve
