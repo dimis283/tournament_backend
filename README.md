@@ -17,14 +17,14 @@ The frontend is https://github.com/dimis283/tournament-app
 
 ## Installation
 
-### Backend (Laravel)
+
 
 ```bash
 composer install
 cp .env.example .env
 php artisan key:generate
 
-### SQLite Database
+## SQLite Database
 
 Δημιούργησε το SQLite file:
 
