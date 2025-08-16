@@ -15,16 +15,7 @@ The frontend is https://github.com/dimis283/tournament-app
 - Node.js & npm
 - SQLite
 
-## Installation
-
-
-
-```bash
-composer install
-cp .env.example .env
-php artisan key:generate
-
-## SQLite Database
+ ## SQLite Database
 
 Δημιούργησε το SQLite file:
 
@@ -36,6 +27,17 @@ touch database.sqlite
 
 DB_CONNECTION=sqlite
 DB_DATABASE=/absolute/path/to/database/database.sqlite
+
+## Installation
+
+
+
+```bash
+composer install
+cp .env.example .env
+php artisan key:generate
+
+
 
 
 Τρέξε migrations & seeder:
