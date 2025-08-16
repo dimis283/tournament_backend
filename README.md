@@ -1,5 +1,7 @@
 # tournament_backend
 A full-stack web application for managing chess tournaments, opponents, and results.
+
+The frontend is https://github.com/dimis283/tournament-app
 ## Features
 
 - User authentication (login/register) using Laravel Sanctum
