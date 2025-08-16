@@ -20,6 +20,7 @@ The frontend is https://github.com/dimis283/tournament-app
 Δημιούργησε το SQLite file:
 
 cd database
+
 touch database.sqlite
 
 
