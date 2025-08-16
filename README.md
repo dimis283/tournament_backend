@@ -23,5 +23,25 @@ The frontend is https://github.com/dimis283/tournament-app
 composer install
 cp .env.example .env
 php artisan key:generate
+
+### SQLite Database
+
+Δημιούργησε το SQLite file:
+
+cd database
+touch database.sqlite
+
+
+Στο .env, άλλαξε το DB_DATABASE path:
+
+DB_CONNECTION=sqlite
+DB_DATABASE=/absolute/path/to/database/database.sqlite
+
+
+Τρέξε migrations & seeder:
+
 php artisan migrate --seed
+php artisan migrate --seed
+
+
 php artisan serve
