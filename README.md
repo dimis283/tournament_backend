@@ -17,17 +17,19 @@ The frontend is https://github.com/dimis283/tournament-app
 
  ## SQLite Database
 
-Δημιούργησε το SQLite file:
+Create the SQLite file:
 
 cd database
 
 touch database.sqlite
 
 
-Στο .env, άλλαξε το DB_DATABASE path:
+Update the .env file:
 
 DB_CONNECTION=sqlite
 DB_DATABASE=/absolute/path/to/database/database.sqlite
+Replace /absolute/path/to/database/database.sqlite with the full path to the database.sqlite file on your machine.
+This ensures Laravel knows where to find the SQLite database.
 
 ## Installation
 
@@ -41,7 +43,7 @@ php artisan key:generate
 
 
 
-Τρέξε migrations & seeder:
+Run migrations & seeder:
 
 php artisan migrate --seed
 php artisan migrate --seed
